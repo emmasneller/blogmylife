@@ -8,6 +8,10 @@ import Blogs from './pages/Blogs'
 import Gallery from './pages/Gallery'
 import Blog from './pages/Blog'
 import Post from './pages/Post';
+import { Amplify } from 'aws-amplify';
+import awsExports from './aws-exports';
+Amplify.configure(awsExports);
+
 
 function App() {
   
@@ -26,7 +30,10 @@ function App() {
         </Route>
         
       </Routes>
+     
     </BrowserRouter>
+
+    
   );
 }
 

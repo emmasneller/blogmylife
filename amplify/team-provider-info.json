@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-blogmylife-dev-211806-authRole",
+      "UnauthRoleArn": "arn:aws:iam::775013158099:role/amplify-blogmylife-dev-211806-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::775013158099:role/amplify-blogmylife-dev-211806-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-blogmylife-dev-211806-deployment",
+      "UnauthRoleName": "amplify-blogmylife-dev-211806-unauthRole",
+      "StackName": "amplify-blogmylife-dev-211806",
+      "StackId": "arn:aws:cloudformation:eu-west-2:775013158099:stack/amplify-blogmylife-dev-211806/4e1cb800-556b-11ed-9828-026cb26c1da0",
+      "AmplifyAppId": "d3h6mafan0pskd"
+    },
+    "categories": {
+      "api": {
+        "blogmylife": {}
+      }
+    }
+  }
+}
